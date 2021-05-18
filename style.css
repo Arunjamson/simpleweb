@@ -560,8 +560,15 @@ footer{
    }
 
    @media only screen and (max-width: 409px){
-        .content{
+        section{
+        height: 400px;
+        }
+       .content{
        	overflow-y: auto;
+       	height: 200px;
+       }
+       .carousal{
+         height: 200px;
        }
        .links{
            background: #39393A;
