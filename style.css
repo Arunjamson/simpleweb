@@ -133,7 +133,7 @@ nav{
     display: flex;
 
 	position: relative;
-    z-index: 39;
+    z-index: 42;
 }
 
 .navbar{
@@ -407,7 +407,7 @@ section{
 }
 
 .links.active{
-	
+	z-index: 40;
 	opacity: 1;
 	}
 
@@ -419,7 +419,7 @@ footer{
 	align-items: center;
 	position: fixed;
 	bottom: 0;
-    z-index: 34;
+    z-index: 39;
 }
 
 .text-footer{
@@ -560,8 +560,11 @@ footer{
    }
 
    @media only screen and (max-width: 409px){
-       .para{
+        .content{
        	overflow-y: auto;
+       }
+       .links{
+           background: #39393A;
        }
         footer{
        	background: #09793d;
